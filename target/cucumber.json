@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4494127668,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Go to the website and doing some operation",
+        "description": "",
+        "id": "n11-project-using-cucumber-and-selenium;go-to-the-website-and-doing-some-operation",
+        "after": [
+          {
+            "result": {
+              "duration": 858527995,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.closingTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6802862329,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "MyStepdefs.iNavigateToTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2985354402,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter username and password for login",
+            "match": {
+              "location": "MyStepdefs.iEnterUsernameAndPasswordForLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3393156256,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search product to buy",
+            "match": {
+              "location": "MyStepdefs.iSearchProductToBuy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3244923955,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I go to the second page to choose",
+            "match": {
+              "location": "MyStepdefs.iGoToTheSecondPageToChoose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139589101,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I add third product to favourite",
+            "match": {
+              "location": "MyStepdefs.iAddThirdProductToFavourite()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1080315523,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I go to the favorite menu",
+            "match": {
+              "location": "MyStepdefs.iGoToTheFavoriteMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1319019580,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click product that I added favourite before",
+            "match": {
+              "location": "MyStepdefs.iClickProductThatIAddedFavouriteBefore()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 294910120,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I delete product from favourite menu",
+            "match": {
+              "location": "MyStepdefs.iDeleteProductFromFavouriteMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 775266142,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I log out from website",
+            "match": {
+              "location": "MyStepdefs.iLogOutFromWebsite()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "N11 project using cucumber and selenium",
+    "description": "This feature covers the operations we do after logging in to the site",
+    "id": "n11-project-using-cucumber-and-selenium",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
